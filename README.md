@@ -1,4 +1,4 @@
-# Raw-data-Visualization-and-Applying-Machine-learning-models
+# Raw-Data-Visualization-and-Applying-Applying-Machine-Learning-Models
 
 The main objective of this project is to visualize and make the different machine
 learning models with the raw graph that user upload. The user can read and understand
