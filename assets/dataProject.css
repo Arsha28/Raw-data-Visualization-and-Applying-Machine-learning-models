@@ -1,0 +1,838 @@
+
+
+body {
+	margin: 0;
+	background: linear-gradient(90deg, #49a09d, #5f2c82);
+    background-color: #49a09d;
+	
+}/*
+body{
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #25c481, #25b7c4);
+    
+  }
+
+/*body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:#e7e6e1        /* color of the tracking area 
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #e7e6e1;    /* color of the scroll thumb 
+    border-radius: 20px;       /* roundness of the scroll thumb 
+    border: 3px solid orange;/* creates padding around scroll thumb 
+  }
+*/
+
+
+/*body {
+    font-family: var(--body-font);
+    background-image: url(https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-5120x2880-1432.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    background-image: fill;  
+    background-repeat: no-repeat; 
+   }*/
+   
+
+   body{
+    
+    background-color: rgb(37, 41, 84);
+    
+    
+    
+   }
+
+body::-webkit-scrollbar {
+    width: 10px;
+} 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3); 
+    
+    
+} 
+body::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    
+}
+/* Css for file upload and submit */
+
+:root {
+    --colour-black: #1e1e1e;
+    --colour-white: #ffffff;
+    --font-family: Lato,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    --font-size: 100%;
+  }
+  
+
+#upload-data{
+   
+    height:18px;
+    width:148px;
+    font-size: 20px;
+    margin-left: 100px;
+    top: 150px;
+    position:absolute;
+    background-color:white;
+    text-align: center;
+    cursor: pointer;
+
+    
+}
+
+#upload-data{
+    --button: hsl(0, 0%, 12%);
+    --button-hover: hsl(0, 0%, 20%);
+    --button-active:  hsl(0, 0%, 30%);
+    --button-visited: hsl(0, 0%, 20%);
+    --button-colour: var(--colour-white);
+    --button-border: var(--colour-black);
+  }
+  #upload-data{
+      padding: .9rem 1.7rem;
+      color: var(--button-colour);
+      font-weight: 500;
+      transition: all 0.3s ease-in-out;
+      background: var(--button);
+      border: solid 1px var(--button-border);
+      box-shadow: inset 0 0 0 2px var(--colour-white);
+      margin-right: 1em;
+    }
+    
+  #upload-data:hover {
+      text-decoration: underline;
+      background: var(--button-hover);
+      box-shadow: inset 0 0 0 4px var(--colour-white);
+    }
+    
+  #upload-data:active {
+      background: var(--button-active);
+    }
+    
+  #upload-data:visited {
+      background: var(--button-visited);
+    }
+
+
+
+
+#btn{
+    border: 2px solid #000;
+    height: 50px;
+    width:205px;
+    font-size:20px; 
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 100px;
+    top: 220px;
+    background-color: white;
+}
+
+#btn{
+  --button: hsl(0, 0%, 12%);
+  --button-hover: hsl(0, 0%, 20%);
+  --button-active:  hsl(0, 0%, 30%);
+  --button-visited: hsl(0, 0%, 20%);
+  --button-colour: var(--colour-white);
+  --button-border: var(--colour-black);
+}
+#btn {
+    padding: .9rem 1.7rem;
+    color: var(--button-colour);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    background: var(--button);
+    border: solid 1px var(--button-border);
+    box-shadow: inset 0 0 0 2px var(--colour-white);
+    margin-right: 1em;
+  }
+  
+#btn:hover {
+    text-decoration: underline;
+    background: var(--button-hover);
+    box-shadow: inset 0 0 0 4px var(--colour-white);
+  }
+  
+#btn:active {
+    background: var(--button-active);
+  }
+  
+#btn:visited {
+    background: var(--button-visited);
+  }
+
+
+
+.up{
+    top:10px;
+    left:55px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+
+/* ------------------------------------------------
+
+
+.upload-data{
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 80px;
+    width:100px;
+    font-size:20px; 
+    margin-left: 200px;
+    top: 300px;
+    position:absolute;
+    text-align: center;
+    cursor: pointer;
+
+    
+}
+*/
+/* css for tabel and tabel box*/
+
+/* css for box1*/
+.uploadBox{
+    
+    margin-left:30px;
+    height:300px;
+    width: 400px;
+    position:absolute;
+    top:130px;
+	overflow: auto;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-left:220px;
+    background-color: rgb(37, 41, 84);
+    
+    border-radius: 25px;
+}
+
+A{
+   
+    top: 50px;
+    left:100px;
+    position:absolute;
+}
+
+
+
+
+
+/* --------------------------------*/
+
+#Tabel{
+    
+    display:inline-block;
+    margin-left: 670px;
+    height:45vh;
+    width: 50vw;
+    position:absolute;
+    top: 10px;
+    border-collapse: collapse;
+	overflow: auto;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius:15px;
+    
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+
+
+
+
+#file{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:absolute;
+    border: 2px solid #fff;
+    margin-left:300px;
+    height:30;
+    text-align: center;
+    top:50px;
+    color:#fff;
+}
+#Markdown{
+    position:absolute;
+    font-size:15px;
+    margin-left:20px;
+    display: flex;
+    color:#fff;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#rows_data{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:absolute;
+    text-align: center;
+    background-color: rgb(37, 41, 84);
+    margin-left:670px;
+    height:30px;
+    width:771px;
+    font-size: 15px;
+    font-weight: bold;
+    top:475px;
+    align-content: middle;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+    
+}
+
+
+
+/* *********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------- Graph Box ------------------------------*/
+
+.graphBox{
+    margin-left:100px;
+    height:550px;
+    width:1000px;
+    position:absolute;
+    top:600px;
+	overflow: auto;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+    background-color: rgb(37, 41, 84);
+    border-radius: 25px;
+}
+
+
+#chart-choice{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-size: 15px;
+    font-weight: bold;
+    height: 100px;
+    width:200px;
+    position:absolute;
+    top:200px;
+    align:left;
+    margin-left:750px;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(37, 41, 84);
+    
+}
+
+#indicator-graphic{
+    width : 680px;
+    height: 350px;
+    position: absolute;
+    border-radius: 5px;
+    top:100px;
+    left:50px;
+}
+
+
+
+.xAxis{
+    position:absolute;
+    top:100px;
+    margin-left: 750px;
+    width:240px;
+}
+.yAxis{
+    position:absolute;
+    top:150px;
+    margin-left: 750px;
+    width:240px;
+
+}
+
+.graphLoading{
+    position:absolute;
+    top:200px;
+    left:320px;
+}
+
+
+*[data-dash-is-loading="true"]{
+    visibility: hidden;
+}
+*[data-dash-is-loading="true"]::before{
+    content: "Loading...";
+    display: inline-block;
+    color: white;
+    visibility: visible;
+}
+
+/*-------------------------------------------------------------*/    
+
+/*  ---------------Multi Graph------------------------*/
+
+.links{
+
+    margin-left:1150px;
+    height:400px;
+    width:300px;
+    position:absolute;
+    top:680px;
+	overflow: auto;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(37, 41, 84);
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+#multiGraph{
+    
+    height:20px;
+    width:100px;
+    font-size: 20px;
+    position:absolute;
+    background-color:white;
+    cursor: pointer;
+    left:80px;
+    top:140px;
+    
+    
+}
+#multiGraph{
+    --button: hsl(0, 0%, 12%);
+    --button-hover: hsl(0, 0%, 20%);
+    --button-active:  hsl(0, 0%, 30%);
+    --button-visited: hsl(0, 0%, 20%);
+    --button-colour: var(--colour-white);
+    --button-border: var(--colour-black);
+  }
+#multiGraph{
+    padding: .9rem 1.7rem;
+    color: var(--button-colour);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    background: var(--button);
+    border: solid 1px var(--button-border);
+    box-shadow: inset 0 0 0 2px var(--colour-white);
+    margin-right: 1em;
+}
+
+#multiGraph:hover {
+    text-decoration: underline;
+    background: var(--button-hover);
+    box-shadow: inset 0 0 0 4px var(--colour-white);
+}
+
+#multiGraph:active {
+    background: var(--button-active);
+}
+
+#multiGraph:visited {
+    background: var(--button-visited);
+}
+
+#multiMark{
+    position:absolute;
+    font-size:15px;
+    margin-left:20px;
+    display: flex;
+    top:40px;
+    color:#fff;
+    left:15px;
+    right:15px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid #fff;
+    
+}
+
+
+#machineLearning{
+    
+    height:20px;
+    width:100px;
+    font-size: 20px;
+    position:absolute;
+    background-color:white;
+    cursor: pointer;
+    left:80px;
+    top:320px;
+    
+    
+}
+#machineLearning{
+    --button: hsl(0, 0%, 12%);
+    --button-hover: hsl(0, 0%, 20%);
+    --button-active:  hsl(0, 0%, 30%);
+    --button-visited: hsl(0, 0%, 20%);
+    --button-colour: var(--colour-white);
+    --button-border: var(--colour-black);
+  }
+#machineLearning{
+    padding: .9rem 1.7rem;
+    color: var(--button-colour);
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    background: var(--button);
+    border: solid 1px var(--button-border);
+    box-shadow: inset 0 0 0 2px var(--colour-white);
+    margin-right: 1em;
+}
+
+#machineLearning:hover {
+    text-decoration: underline;
+    background: var(--button-hover);
+    box-shadow: inset 0 0 0 4px var(--colour-white);
+}
+
+#machineLearning:active {
+    background: var(--button-active);
+}
+
+#machineLearning:visited {
+    background: var(--button-visited);
+}
+
+#machineMark{
+    position:absolute;
+    font-size:15px;
+    margin-left:20px;
+    display: flex;
+    top:230px;
+    color:#fff;
+    left:15px;
+    right:15px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid #fff;
+    
+}
+
+
+
+
+/* -----------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+#data_box{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: 30vw;
+    height:45vh;
+    width: 45vw;
+    overflow: auto;
+    position:absolute;
+    top:500px;
+
+}
+
+
+
+#Model{
+    width : 500px;
+    height: 500px;
+    position: absolute;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: 13vw;
+    height:45vh;
+    width: 45vw;
+    top:350px;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+#data{
+   
+
+    font-size:20px; 
+    position:absolute;
+    background-color: rgb(37, 41, 84);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    margin-left: 1320px;
+    top: 1000px;
+
+}
+#accuracy{
+    
+   
+    height: 100px;
+    width:200px;
+    font-size:20px; 
+    margin-left: 1200px;
+    top: 1000px;
+    position:absolute;
+    background-color: rgb(37, 41, 84);
+  
+    text-decoration: none;
+    color: white;
+
+}
+
+#Machine-learning{
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 30px;
+    width:500px;
+    font-size:20px; 
+    margin-left: 230px;
+    top: 100px;
+    position:absolute;
+    background-color:lightgray;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+/*****     Machine Learnig css *****************/
+
+    /*             submit                  */
+
+
+
+#machineSubmit{
+    position:absolute;
+    font-size:15px;
+    margin-left:20px;
+    display: flex;
+    color:#fff;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+           /*       ---------------------  */
+
+
+.modelMachine{
+        margin-left:100px;
+        height:550px;
+        width:1000px;
+        position:absolute;
+        top:600px;
+        overflow: auto;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        
+        background-color: rgb(37, 41, 84);
+        border-radius: 25px;
+    
+
+}
+
+/*      Tabel   */ 
+#Tabel1{
+    
+    display:inline-block;
+    margin-left: 600px;
+    height:45vh;
+    width: 50vw;
+    position:absolute;
+    top: 50px;
+    border-collapse: collapse;
+	overflow: auto;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius:15px;
+    
+}
+     
+
+
+/*   Radio Ml models */
+
+.radio1{
+    margin-left:400px;
+    height:50px;
+    width: 850px;
+    position:absolute;
+    top:550px;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    text-align: center;
+    border-radius: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-weight: bold;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+
+}
+
+
+
+
+#radio_value{
+    font-size: 20px;
+    top:10px;
+    height: 30px;
+    width:800px;
+    position:absolute;
+    color:#fff;
+    left:25px;
+   
+}
+
+
+/* model_graph */
+
+.model_figure_graph_box{
+    margin-left:150px;
+    height:550px;
+    width:900px;
+    position:absolute;
+    top:700px;
+	overflow: auto;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+    background-color: rgb(37, 41, 84);
+    border-radius: 25px;
+}
+
+
+
+
+#model_graph{
+    width : 780px;
+    height: 350px;
+    position: absolute;
+    border-radius: 5px;
+    top:100px;
+    left:50px;
+}
+
+.graph_figure{
+    position:absolute;
+    top:200px;
+    left:320px;
+    height: 350px;
+}
+
+
+.xTest_value{
+    position:absolute;
+    top:50px;
+    margin-left: 10px;
+    width:340px;
+}
+.yTarget_value{
+    position:absolute;
+    top:100px;
+    margin-left: 10px;
+    width:340px;
+
+}
+
+.inputValue{
+    
+    margin-left:30px;
+    height:400px;
+    width: 400px;
+    position:absolute;
+    top:800px;
+	
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-left:1100px;
+    background-color: rgb(37, 41, 84);
+    
+    border-radius: 25px;
+}
+
+.dataBox{
+    
+    margin-left:320px;
+    height:80px;
+    width: 200px;
+    position:absolute;
+    top:120px;
+	overflow: auto;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+    background-color: rgb(37, 41, 84);
+    
+    border-radius: 25px;
+}
+
+#Markdown1{
+    position:absolute;
+    font-size:15px;
+    margin-left:20px;
+    display: flex;
+    color:#fff;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.radio3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+   
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(37, 41, 84);
+    
+    
+}
+
+/*#container{
+   
+
+	
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(37, 41, 84);
+    border-radius: 25px;
+}*/
