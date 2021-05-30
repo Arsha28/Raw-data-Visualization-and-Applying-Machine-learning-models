@@ -1,1 +1,1 @@
-# Raw-data-Visulization-and-Applying-Machine-learning-models
+# Raw-data-Visualization-and-Applying-Machine-learning-models
